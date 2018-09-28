@@ -274,7 +274,6 @@ public class KeyHandler implements DeviceKeyHandler {
 		if (scanCode == MODE_NONE) {
 		    mAudioManager.setRingerModeInternal(sSupportedSliderModes.get(MODE_RING));
 		}
-		    
 
 		if (mVibrator != null) {
 		    mVibrator.vibrate(40);
